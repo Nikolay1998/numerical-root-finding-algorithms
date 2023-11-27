@@ -1,4 +1,4 @@
-package sample;
+package app;
 
 import javafx.fxml.FXML;
 import javafx.scene.chart.LineChart;

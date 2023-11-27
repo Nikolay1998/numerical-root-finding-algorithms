@@ -1,4 +1,4 @@
-package sample;
+package app;
 import java.util.ArrayList;
 
 import static java.lang.Math.abs;

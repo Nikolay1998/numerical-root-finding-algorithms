@@ -1,4 +1,4 @@
-package sample;
+package app;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -8,11 +8,9 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
-
-
     @Override
-    public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("funczero.fxml"));
+    public void start(Stage primaryStage) throws Exception {
+        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("funczero.fxml"));
         primaryStage.setTitle("Searching zeros of function");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
