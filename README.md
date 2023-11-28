@@ -7,8 +7,8 @@ Run with ```mvn javafx:run```.
 
 Application have JavaFX GUI where user can specify:
 * range for root searching;
-* epsilon - minimal segment length after which program return result if searching, used for both Newton's and dichotomy methods;
-* delta - minimal value after which program return result if searching, used for dichotomy method;
+* epsilon - minimal segment length after which program return result of searching, used for both Newton's and dichotomy methods;
+* delta - minimal value after which program return result of searching, used for dichotomy method;
 * approximation - starting approximation point, used for Newton's method;
 
 ![img](img.png)
